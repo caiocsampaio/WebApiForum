@@ -20,7 +20,7 @@ namespace WebApiForum.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastrar([FromBody] TopicoForumModel topico)
+        public IActionResult Cadastrar([FromForm] TopicoForumModel topico)
         {
             try
             {
@@ -41,7 +41,7 @@ namespace WebApiForum.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Editar([FromBody] TopicoForumModel topico, int id)
+        public IActionResult Editar([FromForm] TopicoForumModel topico, int id)
         {
             try
             {

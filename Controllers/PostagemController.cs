@@ -20,7 +20,7 @@ namespace WebApiForum.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastrar([FromBody] PostagemModel postagem)
+        public IActionResult Cadastrar([FromForm] PostagemModel postagem)
         {
             try
             {
@@ -41,7 +41,7 @@ namespace WebApiForum.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Editar([FromBody] PostagemModel postagem, int id)
+        public IActionResult Editar([FromForm] PostagemModel postagem, int id)
         {
             try
             {
