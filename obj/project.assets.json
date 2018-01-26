@@ -12533,23 +12533,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/corujasdev/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\caioc\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/corujasdev/visualstudiocode/dotnetcore/WebApiForum/WebApiForum.csproj",
+      "projectUniqueName": "C:\\Users\\caioc\\Documents\\SENAI\\WebApiForum\\WebApiForum.csproj",
       "projectName": "WebApiForum",
-      "projectPath": "/Users/corujasdev/visualstudiocode/dotnetcore/WebApiForum/WebApiForum.csproj",
-      "packagesPath": "/Users/corujasdev/.nuget/packages/",
-      "outputPath": "/Users/corujasdev/visualstudiocode/dotnetcore/WebApiForum/obj/",
+      "projectPath": "C:\\Users\\caioc\\Documents\\SENAI\\WebApiForum\\WebApiForum.csproj",
+      "packagesPath": "C:\\Users\\caioc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\caioc\\Documents\\SENAI\\WebApiForum\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/corujasdev/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\caioc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12573,7 +12573,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {

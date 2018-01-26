@@ -7,9 +7,9 @@ using WebApiForum.Models;
 
 namespace WebApiForum.Repositorio
 {
-    public class UsuarioRep
+    public class UsuarioRep : SqlCon
     {
-        string connectionString = @"Data source=localhost,11433;Initial Catalog=WebApiForum;uid=sa;pwd=DockerSql2017";
+        string connectionString = SqlCon.Db();
 
         public List<UsuarioModel> Listar(){
             List<UsuarioModel> lstUsuarios = new List<UsuarioModel>();
